@@ -1,0 +1,22 @@
+// Variables
+$primary: #452a77;
+$secondary: #452a77;
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+
+// Utilities
+$utilities: () !default;
+$utilities: map-merge(('input-padding': (property: padding,
+            class: ip,
+            values: (0: 0,
+                1: 0.2rem,
+                2: 0.4rem,
+                3: 0.6rem,
+                4: 0.8rem,
+                5: 1rem,
+            ))),
+    $utilities);
+
+@import 'style';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
